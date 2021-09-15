@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(93deg, #d34a688e, #6e47d9ce), url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg");
+    /* height: 100%; */
+}
+
+.main-1{
+    background-image: url("imgs/0.jpg");
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    background-image: center;
+}
+
+.icon{
+    font-size: 50px;
+
+}
+
+.img-a1{
+    max-width: 200px;
+}
+
+.img-a2{
+    max-width: 300px;
+}
+
+/* .design  h2:before h2:after{
+    display: block;
+    content: '';
+    height: 10px;
+    background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
+
+} */
+
+.design h2:before, .design h2:after {
+    display: block;
+    content: '';
+    height: 10px;
+    background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
+  }
